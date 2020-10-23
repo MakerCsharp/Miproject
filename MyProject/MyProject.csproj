@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Frame\" />
-    <Folder Include="Image\" />
+    <Folder Include="image\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Photo\21-9.jpg" />
