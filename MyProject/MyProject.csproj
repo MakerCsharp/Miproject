@@ -152,10 +152,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Frame\" />
-    <Folder Include="image\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Photo\21-9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\level\800px-RARS_0+_%28old%29.svg.png" />
+    <Resource Include="image\level\800px-RARS_12+_%28old%29.svg.png" />
+    <Resource Include="image\level\800px-RARS_16+_%28old%29.svg.png" />
+    <Resource Include="image\level\800px-RARS_18+_%28old%29.svg.png" />
+    <Resource Include="image\level\800px-RARS_6+_%28old%29.svg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
