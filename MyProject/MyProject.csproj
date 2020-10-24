@@ -55,6 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Page_1\page_application\Page_game.xaml.cs">
+      <DependentUpon>Page_game.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window1_test.xaml.cs">
+      <DependentUpon>Window1_test.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -71,7 +77,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Page_1\forgotpassword\Forgot_pag_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Page_1\forgotpassword\Forgot_password.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page_1\page_application\Page_game.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -87,10 +101,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Window1_test.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Page_1\autorization\Autorization.xaml.cs">
       <DependentUpon>Autorization.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page_1\forgotpassword\Forgot_pag_2.xaml.cs">
+      <DependentUpon>Forgot_pag_2.xaml</DependentUpon>
     </Compile>
     <Compile Include="Page_1\forgotpassword\Forgot_password.xaml.cs">
       <DependentUpon>Forgot_password.xaml</DependentUpon>
